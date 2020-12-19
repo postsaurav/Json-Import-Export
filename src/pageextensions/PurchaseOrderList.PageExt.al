@@ -14,8 +14,9 @@ pageextension 50000 SDHPurchaseOrderList extends "Purchase Order List"
                 Image = Export;
                 trigger OnAction()
                 var
+                    ExportToJson: Codeunit "SDH Export To Json";
                 begin
-
+                    ExportToJson.ExportPurchaseOrderAsJson(Rec);
                 end;
             }
         }
