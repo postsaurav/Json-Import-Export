@@ -12,5 +12,5 @@ Discussed in #bcopendiscussion
 
 # Recording Link
 Exporting Data - https://youtu.be/RG0d5vdV_cE
-Importing Data - 
+Importing Data - https://youtu.be/8qhda8Nak8I
 # Refrence Article
