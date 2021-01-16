@@ -1,9 +1,9 @@
 {
   "id": "63dc3c1f-c66c-4ac2-94eb-559b0e9a8cab",
-  "name": "Json Export",
+  "name": "Json Import Export",
   "publisher": "Saurav Dhyani",
-  "brief": "JSON Export Demo",
-  "description": "This extension is an example of how to use Json Object for Export.",
+  "brief": "JSON Import Export Demo",
+  "description": "This extension is an example of how to use Json Object for Import & Export.",
   "version": "1.17.0.0",
   "runtime": "6.0",
   "privacyStatement": "https://www.sauravdhyani.com/",
