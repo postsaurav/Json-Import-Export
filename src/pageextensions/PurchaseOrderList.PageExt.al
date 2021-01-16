@@ -19,6 +19,21 @@ pageextension 50000 SDHPurchaseOrderList extends "Purchase Order List"
                     ExportToJson.ExportPurchaseOrderAsJson(Rec);
                 end;
             }
+            action("Upload Json")
+            {
+                ToolTip = 'This Action Upload the Purchase order as JSon';
+                ApplicationArea = All;
+                Promoted = True;
+                PromotedCategory = Process;
+                PromotedIsBig = True;
+                Image = Import;
+                trigger OnAction()
+                var
+                    ImportFromJson: Codeunit "SDH Import From Json";
+                begin
+                    ImportFromJson.ImportPurchaseOrderFromJson();
+                end;
+            }
         }
     }
 }
