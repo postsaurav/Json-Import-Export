@@ -9,6 +9,7 @@ Saurav Dhyani
 
 # Source 
 Discussed in #bcopendiscussion 
+https://bit.ly/msdyn365bcopendiscussion
 
 # Recording Link
 Exporting Data - https://youtu.be/RG0d5vdV_cE
